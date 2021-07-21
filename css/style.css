@@ -309,7 +309,7 @@ nav {
   text-align: right;
 }
 .banner-details {
-  min-width: 474px;
+  width: 474px;
   z-index: 1;
 }
 .banner-social-icon a {
