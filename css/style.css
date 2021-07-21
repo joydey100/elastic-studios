@@ -633,7 +633,8 @@ nav {
 .contact-container {
   padding-left: 30%;
 }
-.contact-form h2 {
+.contact-form h2,
+.about-text h2 {
   font-size: 55px;
   margin-bottom: 30px;
   font-weight: 400;
@@ -809,6 +810,9 @@ textarea {
   }
   .connect-info {
     text-align: left;
+  }
+  .about-text p {
+    font-size: 18px;
   }
 }
 
