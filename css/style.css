@@ -176,6 +176,10 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+.logo a img {
+  max-width: 90%;
+  margin: 0 auto;
+}
 .nav-content ul {
   display: flex;
   justify-content: space-around;
@@ -284,9 +288,15 @@ nav {
   .navigation {
     display: block;
   }
+  .logo a img {
+    max-width: 82%;
+  }
   .toggle {
     display: block;
+    width: 40px;
+    height: 40px;
   }
+
   .nav-content ul {
     display: none;
   }
@@ -309,7 +319,7 @@ nav {
   text-align: right;
 }
 .banner-details {
-  width: 474px;
+  max-width: 474px;
   z-index: 1;
 }
 .banner-social-icon a {
