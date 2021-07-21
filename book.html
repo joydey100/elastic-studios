@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking - Elastic Studios</title>
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-white">
+    <!-- Header Start -->
+    <header>
+      <!-- Navbar -->
+
+      <nav>
+        <div class="container">
+          <div class="nav-content">
+            <div class="logo">
+              <h2>
+                <a href="index.html">
+                  <img src="images/logo.png" alt="logo" />
+                </a>
+              </h2>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href=#" style="color: #ccaf40">Book</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+
+            <div class="toggle" onclick="toggleMenu()"></div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="index.html">
+              <span class="icon">
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </span>
+              <span class="title"> Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+              </span>
+              <span class="title"> Booking</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="contact.html">
+              <span class="icon"><i class="fas fa-phone-alt"></i> </span>
+              <span class="title"> Contact</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="about.html">
+              <span class="icon">
+                <i class="fa fa-user" aria-hidden="true"></i>
+              </span>
+              <span class="title"> About</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- End of Navbar -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main class="container mt-120">
+      <section class="welcome-booking center-align">
+        <h2 class="dark-text">Welcome to the booking page!</h2>
+        <p class="dark-text">you can select multiple options</p>
+      </section>
+
+      <!-- Photoshop details -->
+      <section class="photoshop-details">
+        <h2 class="dark-text center-align">
+          When and where is the photoshoot?
+        </h2>
+        <div class="photoshop-details-contact">
+          <div class="photoshop-date">
+            <label for="photo-date" class="dark-text">Select Date</label> <br />
+            <input
+              type="date"
+              id="photo-date"
+              name="photo-date"
+              class="dark-text yellow-border"
+            />
+          </div>
+          <div class="photoshop-time">
+            <label for="photo-time" class="dark-text">Select a time</label>
+            <input
+              type="time"
+              id="photo-time"
+              name="photo-time"
+              class="dark-text yellow-border"
+            />
+          </div>
+          <div class="photoshop-address">
+            <label for="photo-address" class="dark-text">Address</label>
+            <input
+              type="text"
+              id="photo-time"
+              name="photo-time"
+              placeholder="Enter your Address"
+              class="dark-text yellow-border"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Select your Preffered package -->
+      <section class="packages-section">
+        <h2 class="package-text dark-text center-align">
+          Select your preffered package
+        </h2>
+        <div class="package-container">
+          <div class="package center-align">
+            <h5 class="dark-text">Basic</h5>
+            <h3 class="dark-text">30,000</h3>
+            <div class="package-details">
+              <p class="dark-text">1 hour shoot</p>
+              <p class="dark-text">Unlimited photos</p>
+              <p class="dark-text">Editing included</p>
+            </div>
+            <a href="#" class="package-btn">Select </a>
+          </div>
+
+          <div class="package center-align">
+            <h5 class="dark-text">Basic</h5>
+            <h3 class="dark-text">30,000</h3>
+            <div class="package-details">
+              <p class="dark-text">1 hour shoot</p>
+              <p class="dark-text">Unlimited photos</p>
+              <p class="dark-text">Editing included</p>
+            </div>
+            <a href="#" class="package-btn">Select </a>
+          </div>
+
+          <div class="package center-align">
+            <h5 class="dark-text">Basic</h5>
+            <h3 class="dark-text">30,000</h3>
+            <div class="package-details">
+              <p class="dark-text">1 hour shoot</p>
+              <p class="dark-text">Unlimited photos</p>
+              <p class="dark-text">Editing included</p>
+            </div>
+            <a href="#" class="package-btn">Select </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Details -->
+      <!-- Photoshop details -->
+      <section class="contact-details">
+        <h2 class="dark-text center-align">
+          Kindly provide your contact details
+        </h2>
+
+        <!-- Contact Form -->
+        <form class="booking-contact-client">
+          <div class="client-name">
+            <label for="client-name" class="dark-text">Name</label> <br />
+            <input
+              type="name"
+              id="client-name"
+              name="client-name"
+              class="dark-text yellow-border"
+              placeholder="Enter Full Name"
+              required
+            />
+          </div>
+
+          <div class="client-number">
+            <label for="client-number" class="dark-text">Phone Number</label>
+            <br />
+            <input
+              type="tel"
+              id="client-number"
+              name="client-number"
+              class="dark-text yellow-border"
+              placeholder="Enter Mobile Number"
+              required
+            />
+          </div>
+
+          <div class="client-email">
+            <label for="client-email" class="dark-text">Email</label>
+            <br />
+            <input
+              type="email"
+              id="client-email"
+              name="client-email"
+              class="dark-text yellow-border"
+              placeholder="Enter Email Address"
+              required
+            />
+          </div>
+        </form>
+      </section>
+
+      <div class="submit-button-groups center-align">
+        <a href="#" class="banner-btn">Book Now</a>
+        <a href="#" class="save-data-btn">Save and Book later</a>
+      </div>
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer class="container">
+      <div class="copyright">
+        <p class="dark-text">&copy; Copyright Reserved by Elastic Studio</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Font Awesome Scripts -->
+    <script
+      src="https://kit.fontawesome.com/8184740b0e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main JS File -->
+    <script src="js/app.js"></script>
+  </body>
+</html>

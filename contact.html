@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Elastic Studios</title>
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <!-- Navbar -->
+
+      <nav>
+        <div class="container">
+          <div class="nav-content">
+            <div class="logo">
+              <h2>
+                <a href="index.html">
+                  <img src="images/logo.png" alt="logo" />
+                </a>
+              </h2>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="book.html">Book</a></li>
+              <li><a href="#" style="color: #ccaf40">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+
+            <div class="toggle" onclick="toggleMenu()"></div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="index.html">
+              <span class="icon">
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </span>
+              <span class="title"> Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="book.html">
+              <span class="icon">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+              </span>
+              <span class="title"> Booking</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-phone-alt"></i> </span>
+              <span class="title"> Contact</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="about.html">
+              <span class="icon">
+                <i class="fa fa-user" aria-hidden="true"></i>
+              </span>
+              <span class="title"> About</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- End of Navbar -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main class="container">
+      <div class="content-section">
+        <div class="content-left">
+          <div class="big-image">
+            <img src="images/big-logo.png" alt="big logo" />
+          </div>
+          <div class="banner-social-icon">
+            <a href="#"><i class="fab fa-behance"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="content-right">
+          <div class="contact-container">
+            <div class="contact-form">
+              <h2>Contact Us</h2>
+              <form>
+                <div class="name-field">
+                  <label for="name">Name</label><br />
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter Your  Name"
+                    required
+                  />
+                </div>
+
+                <div class="email-field">
+                  <label for="email">Email</label><br />
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter Your  Email"
+                    required
+                  />
+                </div>
+
+                <div class="message-field">
+                  <label for="message">Message</label><br />
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Enter Your Message Here"
+                  ></textarea>
+                </div>
+
+                <div class="submit-btn">
+                  <button type="submit" class="form-submit-btn">Submit</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="connect-info">
+              <p>
+                <a href="tel:(234) 305-738-8420"
+                  >(234) 305-738-8420 <i class="fas fa-phone"></i
+                ></a>
+              </p>
+              <p>
+                127 Steve Hunt Road, Florida<i
+                  class="fas fa-map-marker-alt"
+                ></i>
+              </p>
+              <p>
+                <a href="mailto:info@elasticstudio.com"
+                  >info@elasticstudio.com <i class="far fa-envelope"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer class="container">
+      <div class="copyright">
+        <p>&copy; Copyright Reserved by Elastic Studio</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Font Awesome Scripts -->
+    <script
+      src="https://kit.fontawesome.com/8184740b0e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main JS File -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
